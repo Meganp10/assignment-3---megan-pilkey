@@ -9,6 +9,12 @@
  
    #site-title {
     font-size: 60px;
+    font-family: sans-serif;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    color: #FFFFFE;
+    background-color: #011608;
   }
   
   ul {
@@ -34,8 +40,9 @@ nav ul {
 }
 
   nav {
-  background-color: #011608;
-  padding: 15px 0;
+    width: 100%;
+    background-color: #011608;
+    padding: 15px 0;
 }
   
 a:hover {
@@ -55,25 +62,15 @@ a:hover {
       margin: 0 auto;
       display: grid;
       grid-template-columns: 40% 60%;
-      gap: 20px;
-      margin-top: 10px;
      background-color: #E77F74;
-     padding: 20px;
-    }
+  }
+  
   
   .storeimg{
     padding: 20px;
   }
   
-  h1 {
-  font-family: sans-serif;
-  text-align: center;
-  width: 100%;
-  margin: 0 auto;
-  padding: 20px;
-  color: #FFFFFE;
-  background-color: #011608;
-}
+
   
   img{
     width: 100%;
@@ -82,8 +79,9 @@ a:hover {
     aspect-ratio: 3/2;
   }
   
- h2, h3, p{
+ h1, h2, p{
     color: #FFFFFE;
+    margin-right: 20px;
   }
   
   .hours {
@@ -100,8 +98,11 @@ a:hover {
   </head>
   
   <body>
+  
+ 
+  <div class="container">
     
-  <h1 id="site-title">The Garden Stand</h1>
+    <div id="site-title">The Garden Stand</div>
     
     <nav>
 <ul>
@@ -116,13 +117,10 @@ a:hover {
 </ul>
 </nav>
     
- 
-  <div class="container">
-    
     <!-- Left: Text -->
     <div class="text">
-      <h2>Come Visit Us!</h2>
-      <h3>Location</h3>
+      <h1>Come Visit Us!</h1>
+      <h2>Location</h2>
       <p>
         2-90 Peel St
       </p>
@@ -130,7 +128,7 @@ a:hover {
         New Hamburg ON N3A 1E3
         Canada
       </p>
-       <h3>Hours</h3>
+       <h2>Hours</h2>
      
     <div class="hours">
   <div class="day">Sunday</div>
